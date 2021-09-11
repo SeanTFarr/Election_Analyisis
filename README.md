@@ -1,7 +1,7 @@
 # Election_Analysis
 
 ## Project Overview
-A Colorado Board of Elections employee has given me several tasks to perform and audit of a recent local congressional election. The tasks are as follows:
+A Colorado Board of Elections employee has given me several tasks to perform an audit of a recent local congressional election. The tasks are as follows:
 
 1. Calculate the total number of votes cast.
 2. Get a complete list of candidates who received votes.
