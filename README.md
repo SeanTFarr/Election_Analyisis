@@ -1,7 +1,7 @@
 # Election_Analysis
 
 ## Project Overview
-A Colorado Board of Elections employee has requested several tasks to perform an audit of a recent local congressional election. The tasks are as follows:
+A Colorado Board of Elections employee has requested additional data to perform an audit of a recent local congressional election. The additional data requested was as follows:
 
 1. Calculate the total number of votes cast in the election.
 2. Provide a breakdown of the number of votes and the percentage of the total votes for each county.
@@ -27,18 +27,18 @@ A Colorado Board of Elections employee has requested several tasks to perform an
 
 
  ### County Results:
- The county results were determined by utilizing a For Loop to run through the elections_results.csv file, pulling the county information, calculating the number of votes per county, and calculation the percentage of the votes for each county.
+ The county results were determined by utilizing this section of code to run through the elections_results.csv file, pulling the county information, calculating the number of votes per county, and calculation the percentage of the votes for each county.
 <img width="470" alt="County For Loop" src="https://user-images.githubusercontent.com/88861780/132977294-356cbeae-d35b-4ffe-8f3d-a0163c0749e6.png">
 
 - The county by county breakdown:
   - Jefferson County had 38,855 votes or 10.5% of the precinct.
   - Denver had 306,055 votes or 82.8% of the precinct.
-  - Arapahoe:  (24,801 or 6.7% of the precinct.
+  - Arapahoe had 24,801 votes or 6.7% of the precinct.
 - The largest turnout:
   -  Denver County had the largest voter turnout at almost 83% of the precinct.
 
 ### Candidate Results:
-Likewaise, for the candidate results, we used a For Loop to extract the candidate names, the total votes each one recieved, and calculating the percentage of the total votes cast that each candidate received.
+Similar to the county results, for the candidate results we used this section of code to extract the candidate names, the total votes each one recieved, and calculating the percentage of the total votes cast that each candidate received.
 <img width="410" alt="Candidate For Loop" src="https://user-images.githubusercontent.com/88861780/132977295-d92f7a08-e546-48cd-b751-de470dd5d746.png">
 
 - The candidates were: 
@@ -50,11 +50,11 @@ Likewaise, for the candidate results, we used a For Loop to extract the candidat
   - Diana DeGette received 272,892 votes, which is 73.8% of the total votes.
   - Raymon Anthony Doane received 11,606 votes, which is 3.1% of the total votes.
 - The winner of the election was:
-  - Diana DeGette who received 272,892 votes, 73.8% of the total votes cast
+  - Diana DeGette, who received 272,892 votes, had 73.8% of the total votes cast.
 
 ## Election-Audit Summary
 With this script, the Colorado Board of Elections can perform additional audits, with proper modifications, of other elections including (but not limited to):
 
-- With a dataset of the entire state they could collect data on all precints. This would need the addition of a "Precincts" dictionary, to give total votes in each precint as well as the percentage of the total statewide vote.
+- With a dataset of the entire state they could collect data on all precints. This would need the addition of a "Precincts" dictionary, to give total votes in each precinct across the state, as well as the percentage of the total statewide vote.
 
 - with a dataset that included the cities within the counties and by adding a "City" dictionary to the script, the Board could drill down further into how candidates fared in different regions of the counties, giving a better understanding of the candidates constituents.
