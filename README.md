@@ -28,6 +28,7 @@ A Colorado Board of Elections employee has requested additional data to perform 
 
  ### County Results:
  The county results were determined by utilizing this section of code to run through the elections_results.csv file, pulling the county information, calculating the number of votes per county, and calculation the percentage of the votes for each county.
+ 
 <img width="470" alt="County For Loop" src="https://user-images.githubusercontent.com/88861780/132977294-356cbeae-d35b-4ffe-8f3d-a0163c0749e6.png">
 
 - The county by county breakdown:
@@ -39,6 +40,7 @@ A Colorado Board of Elections employee has requested additional data to perform 
 
 ### Candidate Results:
 Similar to the county results, for the candidate results we used this section of code to extract the candidate names, the total votes each one recieved, and calculating the percentage of the total votes cast that each candidate received.
+
 <img width="410" alt="Candidate For Loop" src="https://user-images.githubusercontent.com/88861780/132977295-d92f7a08-e546-48cd-b751-de470dd5d746.png">
 
 - The candidates were: 
